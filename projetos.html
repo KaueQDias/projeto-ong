@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos - ONG Vidas</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container navbar">
+            <a href="index.html" class="nav-logo nav-spa-link">
+                <img src="assets/images/ong-logo.png" alt="Logo da ONG Vidas">
+            </a>
+            <button class="nav-toggle" aria-label="Abrir menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav class="nav-links">
+                <ul>
+                    <li class="nav-item"><a href="index.html" class="nav-link nav-spa-link">Início</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle">
+                            Participe <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item"><a href="projetos.html" class="nav-link nav-spa-link">Ver Projetos</a></li>
+                            <li class="nav-item"><a href="projetos.html#voluntariado" class="nav-link">Seja Voluntário</a></li>
+                            <li class="nav-item"><a href="projetos.html#doar" class="nav-link">Doe Agora</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="cadastro.html" class="nav-link btn btn-primary nav-spa-link">Cadastro</a></li>
+                </ul>
+                <button id="theme-toggle" class="theme-toggle" aria-label="Alternar modo claro/escuro">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section class="section">
+            <div class="container">
+                <h1 class="section-title">Nossos Projetos</h1>
+                
+                <div id="project-grid" class="row">
+                    </div>
+            </div>
+        </section>
+
+        <section class="section" id="voluntariado" style="background-color: var(--color-white);">
+            <div class="container">
+                <div class="row" style="align-items: center;">
+                    <div class="col-md-5">
+                        <img src="assets/images/voluntario.jpg" alt="Grupo de voluntários felizes">
+                    </div>
+                    <div class="col-md-7">
+                        <h2>Seja um Voluntário</h2>
+                        <p>O seu tempo é um dos bens mais preciosos que podemos receber. Temos vagas para diversas áreas.</p>
+                        <a href="cadastro.html" class="btn btn-primary nav-spa-link">Quero ser Voluntário</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section" id="doar">
+            <div class="container" style="text-align: center;">
+                <h2>Como Doar</h2>
+                <p>Sua contribuição financeira é vital para mantermos nossos projetos funcionando.</p>
+                <h4>Chave PIX: contato@ongvidas.org</h4>
+                <a href="#" class="btn btn-primary" style="margin-top: var(--space-2);">Fazer Doação Online</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2025 ONG Vidas | Curitiba, PR</p>
+        </div>
+    </footer>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
